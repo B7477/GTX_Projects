@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Hiking Adventure Signup</title>
+</head>
+
+<body class="body2">
+    <div class="container">
+        <h1 class="h1Second">Hiking Hijinks Signup</h1>
+        <form action="/submit_signup" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="experience">Hiking Experience Level:</label>
+            <select id="experience" name="experience" required>
+                <option value="">Select an option</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+
+            <div class="button">
+                <button class="btn1" onclick="window.location.href='lastPage.html'">Sign Up</button>
+                <button class="btn2" onclick="window.location.href='index.html'">Go Back</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

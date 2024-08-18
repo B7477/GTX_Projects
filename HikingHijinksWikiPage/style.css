@@ -1,0 +1,102 @@
+html {
+    .bodyHome {
+        text-align: center;
+    }
+    .toBring {
+        width: 200px;
+        border: 3px solid #4f58d8;
+        padding: 10px;
+        display: inline-block;
+        text-align: left;
+    }
+    .body2 {
+        background-color: #ffffff;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        width: 300px;
+        text-align: center;
+    }
+    .h1Second{
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    label {
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    .nextPage {
+        background-color: #5770d6;;
+        color: white;
+        margin-top: 8px;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .nextPage:hover {
+        background-color: #5e64b5;
+    }
+    .btn1 {
+        background-color: #4CAF50;;
+        color: white;
+        margin-top: 8px;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .btn1:hover {
+        background-color: #45a049;
+    }
+    .btn2 {
+        background-color: #d0629d;;
+        color: white;
+        margin-top: 8px;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .btn2:hover {
+        background-color: #b75791;
+    }
+    .lastH3 {
+        border: 3px solid #9b4fd8;
+        padding: 10px;
+        width: 200px;
+        display: inline-block;
+        text-align: center;
+    }
+    .lastBody {
+        text-align: center;
+        background-image: url("assets/hiking.jpeg");
+    }
+    .btn3 {
+        background-color: #ad77ee;;
+        color: white;
+        margin-top: 30px;
+        margin: auto;
+        display: block;
+        border: none;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .btn3:hover {
+        background-color: #8145a1;
+    }
+}
