@@ -1,0 +1,114 @@
+
+body {
+  background-color: #ffccd5;
+  font-family: sans-serif;
+  color: #574145;
+  margin: 0 0 30px;
+}
+#about, #services, #gallery, #contact {
+  padding: 0 5vw;
+}
+#hero {
+  background: whitesmoke url(assets/wavy-dots.webp) repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 2vh;
+}
+hgroup h1, hgroup p, h2, h3 {
+  font-family: 'Rozha One', serif;
+  text-align: center;
+}
+hgroup h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+hgroup p {
+  font-size: 25px;
+  margin-top: -10px;
+  font-style: italic;
+}
+#pickle-img {
+  border: 10px dashed #ffccd5;
+  border-radius: 15px;
+}
+#quote {
+  font-family: 'Rozha One', serif;
+}
+#quote q {
+  display: block;
+  font-style: italic;
+}
+#about {
+  margin: 2vh 0;
+  font-size: 18px;
+  text-align: center;
+}
+.col {
+	display: inline-block;
+	height: auto;
+	width: 30%;
+	margin: 1%;
+}
+figure {
+  margin:0;
+  overflow: hidden;
+}
+.col figure img {
+  width: 100%;
+  height: auto;
+}
+#services ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
+  padding: 0;
+}
+#services ul li {
+  margin: 5px;
+  font-style: italic;
+  text-align: center;
+}
+form * {
+  border-radius: 10px;
+  /* border: 1px solid #574145; */
+  padding: 10px;
+  display: inline-block;
+}
+.btn-hover.color-10 {
+        background-image: linear-gradient(to right, #ed6ea0, #ec8c69, #f7186a , #FBB03B);
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+}
+
+.hover01 figure img {
+	transform: scale(1.5);
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	transform: scale(1);
+}
+
+.hover02 figure img {
+	margin-left: 30px;
+	transform: scale(1.5);
+	transition: .3s ease-in-out;
+}
+.hover02 figure:hover img {
+	margin-left: 0;
+}
+
+.hover03 figure {
+	background: #1abc9c;
+}
+.hover03 figure img {
+	opacity: 1;
+	transition: .3s ease-in-out;
+}
+.hover03 figure:hover img {
+	opacity: .5;
+}
+
+/* Opacity Hover Effect - .hover03 */
+
