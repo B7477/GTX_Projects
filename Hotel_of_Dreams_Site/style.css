@@ -1,0 +1,134 @@
+.nav {
+  display: block;
+  height: 60px;
+  background-color: #f9e1f7;
+  font-family: 'Satisfy', cursive;
+  font-size: 25px;
+}
+
+/* Remove bullets, margin and padding */
+.nav ul {
+  list-style: none;
+  padding: 0cm;
+  margin: 0 20px;
+}
+
+.nav li {
+  display: inline;
+  color: #ff1a8c;
+}
+
+.nav li a {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #ff1a8c;
+  transition-duration: 0.4s;
+}
+
+.nav li a:hover {
+  background-color: #ff1a8c;
+  color: #f9e1f7
+}
+
+body, html {
+  height: 100%;
+}
+
+/* Hero Image */
+.hero-image {
+  background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0.1)), url("https://10mosttoday.com/wp-content/uploads/2018/06/Emirates-Palace.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f9e1f7;
+  font-family: 'Satisfy', cursive;
+  font-size: 30px;
+}
+
+.button {
+  background-color: transparent;
+  color: #f9e1f7;
+  border: 2px solid #ff1a8c;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Satisfy', cursive;
+  display: inline-block;
+  font-size: 23px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ff1a8c;
+  color: #f9e1f7
+}
+
+.page h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 34.5px;
+  font-weight: 400;
+  font-family: 'Satisfy', cursive;
+  color: #ff1a8c;
+}
+
+.parallax2 {
+  text-align: center;
+  background-image: url("https://picsum.photos/1900/1080?random");
+  min-height: 50vh; 
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.overlay h2 {
+	position: relative;
+	margin: 0;
+  font-size: 5em;
+  font-family: 'Satisfy', cursive;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #ff1a8c;
+  z-index: 1;
+}
+
+.parallax3 {
+  text-align: center;
+  position: relative;
+  background-image: url("https://picsum.photos/1920/1080?random");
+  min-height: 50vh; 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Paragraph */
+.paragraph {
+  margin: 3em 0;
+}
+.paragraph p {
+  margin:0 auto;
+  width: 70%;
+  font-size: 30px;
+  font-family: 'Satisfy', cursive;
+  line-height: 1.45em;
+  letter-spacing: .1em;
+  color: rgb(64, 64, 64);
+}

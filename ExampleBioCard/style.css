@@ -1,0 +1,50 @@
+/* ---[ Starting Styles ]--- */
+* {
+  box-sizing: border-box;
+}
+html, body{
+  color: #333;
+  background: whitesmoke;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 16px;
+  height: 100vh;
+}
+a {
+  color: #448844;
+  text-decoration: none;
+}
+h5,h6 {
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+h5{
+  font-family: Michroma, sans-serif;
+  margin: 20px 0;
+}
+h6 {
+  font-size: 16px;
+}
+/* ---[ End Starting Styles ]--- */
+.card {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 400px;
+  background-color: white;
+  margin: 0 auto;
+}
+.background {
+  width: 100%;
+  max-height: 200px;
+}
+.avatar {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  border: 5px solid white;
+  margin-top: -40px;
+}
+.avatarBorder {
+  text-align: center;
+}

@@ -1,0 +1,28 @@
+#hero-section {
+	background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("assets/coffee.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+@media (prefers-reduced-motion: no-preference) {
+ #hero-section {
+   background-attachment: fixed;
+ } 
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+h3 {
+	color: white;
+	text-align: center;
+}
+
+.memberButton {
+	text-align: center;
+	display: block;
+	margin: auto;
+}

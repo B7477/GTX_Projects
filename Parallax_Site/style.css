@@ -1,0 +1,101 @@
+/* Global */
+* {
+	box-sizing: border-box;
+}
+html, body {
+	margin: 0;
+  width: 100%;
+  min-height: 100vh;
+	overflow-x: hidden;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  scroll-behavior: smooth;
+	-webkit-font-smoothing: antialiased;
+  background-color: #efeeee;
+}
+
+/* Classes */
+.top {
+  padding: 2cm;
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+}
+.title {
+  color: #000;
+}
+.title h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+  font-weight: 400;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+/* Parallax */
+.parallax1 {
+  position: relative;
+  background-image: url("https://picsum.photos/1900/1080?random");
+  min-height: 50vh;
+  /* Add code here! */
+  /* Ensure good background image formating */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Begin Parallax effect! */
+  background-attachment: fixed;
+}
+.parallax2 {
+  text-align: center;
+  background-image: url("image2.jpg");
+  min-height: 50vh; 
+  position: relative;
+  /* Copy background properties from parallax1 */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Begin Parallax effect! */
+  background-attachment: fixed;
+}
+.overlay {
+  /* Use absolute positioning to place overlay on parallax */
+}
+.overlay h2 {
+	position: relative;
+	margin: 0;
+  font-size: 5em;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+  z-index: 1;
+}
+.parallax3 {
+  position: relative;
+  background-image: url("https://picsum.photos/1920/1080?random");
+  min-height: 50vh; 
+  /* Add the same parallax properties from the first two examples */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Paragraph */
+.paragraph {
+  margin: 3em 0;
+}
+.paragraph p {
+  margin:0 auto;
+  width: 70%;
+  font-size: 1.05em;
+  line-height: 1.45em;
+  letter-spacing: .1em;
+  color: rgb(64, 64, 64);
+}
+
+/* ::selection custom highlight */
+
+/* LEVEL UP: Use pseudo-element selector to add first letter drop caps w/ color #DA2C4D */
+
+/* LEVEL UP: Add first letter drop caps to the second and third paragraph (colors: #20c997 and #17a2b8, respectively */
