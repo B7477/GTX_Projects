@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-size: 14px;
+  background-color: #93eca9;
+}
+
+#container {
+  width: 200px;
+  height: 200px;
+  background-color: #0000fd;
+  margin: 25px auto; /*25px of space for top/bottom; automatic spacing for left and right*/
+  transition-duration: .5s;
+  overflow: hidden; /*<-when something does not fit inside the container, just hide it!*/
+}
+
+#container:hover { /*This class will win over the #container above*/
+  width: 400px;
+  background-color: #e75480;
+  border-radius: 30px;
+}
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  transition-duration: .8s;
+}
+
+p {
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  vertical-align: middle;
+  width: 200px;
+  height: 130px;
+}
+
+
+#container:hover img { /*it is trying to find an image within the container id*/
+  padding: 15px;
+  border-radius: 50%
+}
+
+#desc {
+  color: black;
+  display: inline-block;
+  vertical-align: middle;
+  width: 170px;
+}
